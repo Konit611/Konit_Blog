@@ -1,34 +1,18 @@
 [
   {
-    "id": "statistics",
+    "id": "project",
     "parentId": "planning",
     "name": {
-      "en": "Statistics",
-      "ko": "통계학",
-      "zh": "统计学",
-      "ja": "統計学"
+      "en": "Project",
+      "ko": "프로젝트",
+      "zh": "项目",
+      "ja": "プロジェクト"
     },
     "description": {
-      "en": "Statistical analysis, data science, and mathematical concepts",
-      "ko": "통계 분석, 데이터 사이언스, 수학적 개념",
-      "zh": "统计分析、数据科学和数学概念",
-      "ja": "統計分析、データサイエンス、数学的概念"
-    }
-  },
-  {
-    "id": "math",
-    "parentId": "planning",
-    "name": {
-      "en": "Mathematics",
-      "ko": "수학",
-      "zh": "数学",
-      "ja": "数学"
-    },
-    "description": {
-      "en": "Mathematical concepts, algebra, calculus, and problem solving",
-      "ko": "수학적 개념, 대수학, 미적분학, 문제 해결",
-      "zh": "数学概念、代数、微积分和问题解决",
-      "ja": "数学的概念、代数、微積分、問題解決"
+      "en": "Project retrospectives, architecture decisions, and development stories",
+      "ko": "프로젝트 후기, 아키텍처 결정, 개발 스토리",
+      "zh": "项目回顾、架构决策和开发故事",
+      "ja": "プロジェクト振り返り、アーキテクチャ決定、開発ストーリー"
     }
   },
   {
