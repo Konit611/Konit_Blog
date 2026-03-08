@@ -82,7 +82,7 @@ for r in review_list:
         reviews_bad.append('[REVIEW_START]' + r['review'] + '[REVIEW_END]')
 ```
 
-## 2. Comparing Models with a Baseline Prompt
+## 3. Comparing Models with a Baseline Prompt
 
 We started with the simplest possible prompt.
 
@@ -123,7 +123,7 @@ GPT-4 clearly showed better results, but the cost difference is significant. Is 
 
 ---
 
-## 3. Detailed Prompt - Backfired
+## 4. Detailed Prompt - Backfired
 
 We tried adding specific conditions to the prompt.
 
@@ -146,7 +146,7 @@ This provides an important lesson: **Complex instructions that exceed the model'
 
 ---
 
-## 4. One-Shot Prompt (1st Attempt) - The Same-Data Trap
+## 5. One-Shot Prompt (1st Attempt) - The Same-Data Trap
 
 Here, the key idea emerges. Generate a good summary example with GPT-4 first, then include it as a one-shot example in GPT-3.5's prompt.
 
@@ -183,7 +183,7 @@ The cause was that **the one-shot example reviews and the actual target reviews 
 
 ---
 
-## 5. One-Shot Prompt (2nd Attempt) - Solved with Separate Examples
+## 6. One-Shot Prompt (2nd Attempt) - Solved with Separate Examples
 
 To solve the problem, we made two changes:
 
