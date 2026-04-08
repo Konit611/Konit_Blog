@@ -78,5 +78,21 @@
       "zh": "人工智能、机器学习和深度学习",
       "ja": "人工知能、機械学習、ディープラーニング"
     }
+  },
+  {
+    "id": "fastapi",
+    "parentId": "development",
+    "name": {
+      "en": "FastAPI",
+      "ko": "FastAPI",
+      "zh": "FastAPI",
+      "ja": "FastAPI"
+    },
+    "description": {
+      "en": "Web API development with FastAPI framework",
+      "ko": "FastAPI 프레임워크를 활용한 Web API 개발",
+      "zh": "使用FastAPI框架进行Web API开发",
+      "ja": "FastAPIフレームワークを使ったWeb API開発"
+    }
   }
 ] 
